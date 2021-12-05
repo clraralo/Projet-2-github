@@ -1,0 +1,150 @@
+
+/*MEDIA QUERY MOBILE*/
+
+
+
+@media all and (max-width: 767px)
+
+{
+
+
+	header img{
+		flex-basis: 100%;
+	}
+
+	nav ul li{
+		flex-basis: 50%;
+	}
+
+	main{
+		padding: 5px;
+	}
+
+	button i{
+		padding: 15px;
+		border-radius: 10px 10px 10px 10px;
+		background-color: #0065fc;
+	}
+
+	.boutonfiltre ul:nth-child(1){
+		flex-basis: 100%;
+	}
+
+	.boutonfiltre li{
+		flex-wrap: wrap;
+		white-space: nowrap;
+	}
+
+	section:nth-child(2){
+		order: 1;
+		flex-basis: 100%;
+
+	}
+	
+	#hebergements{
+		background-color: white;
+		flex-basis: 100%;
+
+	}
+	#hebergements article {
+
+		flex-basis: 90%;}
+
+	}
+
+	#activites{
+		background-color: white;
+		flex-basis: 100%;
+
+	}
+	#activites article {
+
+		flex-basis: 90%;}
+
+	
+
+
+	footer{
+		flex-direction: column;
+	}
+
+
+
+/*MEDIA QUERY TABLETTE*/
+
+/*TABLETS*/
+
+
+@media all and (min-width: 769px) and (max-width: 991px)
+
+/*header, intro, form, filters*/
+
+
+
+{
+	header{
+		padding: 20px;
+		font-size: 1em;
+	}
+
+	main{
+		padding: 20px;
+	}
+
+	input{
+		max-width: 50%;
+	}
+
+	.boutonfiltre ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.boutonfiltre li:nth-child(1){
+		flex-basis: 100%;
+	}
+		
+
+	.boutonfiltre li+li{
+		font-size: 0.8em;
+		clear: none;
+		white-space: nowrap;
+	}	
+		
+/*Sections*/
+	}
+	#hebergements{
+		flex-basis: 100%;
+		margin-bottom: 20px;
+	}
+
+	#populaires{
+		flex-basis: 100%;
+		background-color: white;
+	}
+
+	#populaires article{
+		flex-basis: 28%;
+	}
+
+	#activites{
+		background-color: #f2f2f2;
+	}
+	#activites li{
+		flex-basis: 45%;
+	}
+	#activites h3{
+		padding: 5px;
+	}
+	#activites li:nth-child(3){
+		order: 4;
+	}
+
+/*/footer*/
+	footer{
+		background-color: white;
+	}
+
+
+
+/*MEDIA QUERY ECRANS*/
